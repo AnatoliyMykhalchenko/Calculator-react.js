@@ -1,0 +1,25 @@
+.wrapper {
+	display: flex;
+	align-items: flex-end;
+	flex-flow: column;
+}
+
+.actions {
+	color: #616161;
+	font-size: 20px;
+	min-height: 30px;
+}
+
+.result {
+	color: #fff;
+	font-size: 40px;
+	margin: 20px 0;
+	min-height: 50px;
+}
+
+.line {
+	height: 1px;
+	width: 100%;
+	background-image: linear-gradient(to right, #7482F0, #EC6187);
+}
+

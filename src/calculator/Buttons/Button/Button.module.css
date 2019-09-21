@@ -1,0 +1,22 @@
+.button {
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+	color: white;
+	font-size: 20px;
+	min-width: 22%;
+    height: 60px;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+.button.action {
+	background-color: #4C4E51;
+}
+
+.button.equally {
+	background-image: linear-gradient(to right, #EC6187, #7482F0);
+	min-width: 49%;
+	border-radius: 30px;
+}
