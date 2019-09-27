@@ -28,12 +28,16 @@ class Calculator extends React.Component {
 			this.setState({
 				actions: this.state.actions + symbol
 			})
-			console.log(this.state);
-		};
 
+
+		};
 	};
 
-
+	chekResult() {
+		if(this.state.actions.length > 3){
+			this.setState({result: this.state.result});
+		}
+	}
 
 	render() {
 		return (

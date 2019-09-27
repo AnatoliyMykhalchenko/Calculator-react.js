@@ -9,6 +9,7 @@
     height: 60px;
 	margin-top: 20px;
 	font-weight: bold;
+	transition: 0.5s;
 }
 
 .button.action {
@@ -19,4 +20,12 @@
 	background-image: linear-gradient(to right, #EC6187, #7482F0);
 	min-width: 49%;
 	border-radius: 30px;
+}
+
+.button:hover {
+	cursor: pointer;
+}
+
+.back {
+	background-color: #EC6187;
 }
