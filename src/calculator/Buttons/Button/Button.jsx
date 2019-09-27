@@ -23,7 +23,12 @@ class Button extends React.Component {
 
 	onClickButton(e){
 		// console.log(e.target);
-		this.props.click(e.target.innerHTML);
+		const target = e.target;
+		this.props.click(target.innerHTML);
+		target.classList.add(`${classes.back}`);
+		setTimeout((e) => {
+			target.classList.remove(`${classes.back}`);
+		}, 300)
 	}
 };
 
